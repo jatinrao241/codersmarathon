@@ -1,0 +1,376 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CODERSMARATHON website">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="theme-color" content="#ffffff" />
+    <title>CODERSMARATHON</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- cdn link download -->
+    <link rel="preload stylesheet" as="style" href="bootstrap/css/bootstrap.min.css">
+    <!-- icon cdn link font awesome-->
+    <link rel="preload stylesheet" as="style" href="css/all.min.css">
+    <link rel="preload stylesheet" as="style" href="css/fontawesome.min.css">
+    <!-- css file link -->
+    <link rel="preload stylesheet" as="style" type="text/css" href="css/style.css">
+    <!-- js file link -->
+    <script src="js/main.js"></script>
+    <script src="bootstrap/js/jquery-3.6.1.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- thumbnail meta -->
+    <meta name="msapplication-TileImage" content="https://jatinrao241.github.io/codersmarathon/images/codersmarathon-logo.webp">
+    <meta property="og:site_name" content="CODERSMARATHON">
+    <meta property="og:title" content="CODERSMARATHON">
+    <meta property="og:description" content="CODERSMARATHON">
+    <meta property="og:image" itemprop="image" content="https://jatinrao241.github.io/codersmarathon/images/codersmarathon-logo.webp">
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:url" content="https://jatinrao241.github.io/codersmarathon">
+    <meta property="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+    <section id="all-background" class="all-background-section">
+        <img src="images/home-bg-image.jpg" alt="home-bg-image" height="auto" width="100%">
+        <section id="header" class="header-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1 col-6 order-1">
+                        <div class="sign-in-up-menu">
+                            <button id="signinupmodelbutton" class="open-model-button">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div id="signinupmodelbox" class="signinupmodelboxclass model-box">
+                                <div class="signinupmodelcontent model-content">
+                                    <span class="closemodel">
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                    </span>           
+                                    <ul class="tabs">
+                                        <li class="tab active" id="signinTabbutton">Sign In</li>
+                                        <li class="tab" id="signupTabbutton">Sign Up</li>
+                                    </ul>
+                                    <div class="tab-content pt-2" id="authTabsContent">
+                                        <div class="tab-pane active" id="signinform">
+                                            <form>
+                                                <input type="email" placeholder="Email">
+                                                <input type="password" placeholder="Password">
+                                                <button type="submit">Sign In</button>
+                                            </form>
+                                        </div>
+                                        <div class="tab-pane" id="signupform">
+                                            <form>
+                                                <input type="text" placeholder="Name">
+                                                <input type="email" placeholder="Email">
+                                                <input type="password" placeholder="Password">
+                                                <button type="submit">Sign Up</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-12 order-sm-2 order-3 carousel-image-small-device">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/swiper-image-1.jpg" alt="swiper-image-1.jpg" height="auto" width="100%"/>
+                                    <h2>Front End Developer</h2>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/swiper-image-2.jpg" alt="swiper-image-2.jpg" height="auto" width="100%"/>
+                                    <h2>Back End Developer</h2>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/swiper-image-3.jpg" alt="swiper-image-3.jpg" height="auto" width="100%"/>
+                                    <h2>Full Stack Developer</h2>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/swiper-image-4.jpg" alt="swiper-image-4.jpg" height="auto" width="100%"/>
+                                    <h2>React Developer</h2>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/swiper-image-5.jpg" alt="swiper-image-5.jpg" height="auto" width="100%"/>
+                                    <h2>HTML Developer</h2>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/swiper-image-6.jpg" alt="swiper-image-6.jpg" height="auto" width="100%"/>
+                                    <h2>Java Developer</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1 col-6 order-sm-3 order-2">
+                        <div class="google-map-location">
+                            <button id="googlemaplocationmodelbutton" class="open-model-button">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </button>
+                            <div id="googlemaplocationmodelbox" class="googlemaplocationmodelboxclass model-box">
+                                <div class="googlemaplocationmodelcontent model-content">
+                                    <span class="closemodel">
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                    </span>
+                                    <div class="map-iframe-embeded">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3782.4777709450664!2d73.899698!3d18.552487!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1176bffffff%3A0xe7b72515d8e8a8d6!2sPrinciple%20Infra%20Projects%20Limited!5e0!3m2!1sen!2sin!4v1692620259164!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="youtube-video" class="youtube-video-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1 col-0">
+                        
+                    </div>
+                    <div class="col-sm-10 col-12">
+                        <div class="row">
+                            <div class="col-sm-6 col-12 py-sm-3 py-1">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/rpa5900OpQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-sm-6 col-12 py-sm-3 py-1">
+                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/uV13Myyoee0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1 col-0">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="modal-social-contact" class="modal-social-contact-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1 col-0">
+                        
+                    </div>
+                    <div class="col-sm-10 col-12">
+                        <div class="row">
+                            <div class="col-sm-6 col-6 py-sm-3 py-1">
+                                <div class="row pt-sm-0 pt-3">
+                                    <div class="col-md-6 col-sm-4 col-0"></div>
+                                    <div class="col-md-6 col-sm-8 col-12">
+                                        <button id="socialmediabutton" class="open-model-button">
+                                            Social Media
+                                        </button>
+                                        <div id="socialmediabox" class="socialmediaboxclass model-box">
+                                            <div class="socialmediacontent model-content">
+                                                <span class="closemodel">
+                                                    <i class="fa-solid fa-circle-xmark"></i>
+                                                </span>
+                                                <h3>Social Media</h3>
+                                                <div class="social-media-icon-adjust">
+                                                    <ul class="list-inline w-100%">
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fab fa-instagram"></i></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fab fa-facebook"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fa-brands fa-google"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fab fa-youtube"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fab fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fab fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fa-brands fa-get-pocket"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fa-brands fa-reddit"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fa-brands fa-stumbleupon"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fa-brands fa-telegram"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fa-brands fa-tumblr"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item m-1">
+                                                            <a class="dropdown-item p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-6 py-sm-3 py-1">
+                                <div class="row pt-sm-0 pt-3">                                
+                                    <div class="col-md-6 col-sm-8 col-12">
+                                        <button id="getfreequotebutton" class="open-model-button">
+                                            Contact Us
+                                        </button>
+                                        <div id="getfreequotebox" class="getfreequoteboxclass model-box">
+                                            <div class="getfreequotecontent model-content">
+                                                <span class="closemodel">
+                                                    <i class="fa-solid fa-circle-xmark"></i>
+                                                </span>
+                                                <h3>Get In Touch</h3>
+                                                <form>
+                                                    <input type="text" placeholder="Name">
+                                                    <input type="email" placeholder="Email">
+                                                    <input type="number" minlength="3" maxlength="13" placeholder="Mobile Number">
+                                                    <textarea type="text" rows="4" placeholder="Enter your message"></textarea>
+                                                    <button type="submit">Submit</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-4 col-0"></div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1 col-0">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="form-wizard-design" class="form-wizard-design-section pt-3 pt-sm-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1 col-0">
+                        
+                    </div>
+                    <div class="col-sm-10 col-12">
+                        <section class="wizard-form-tabs">
+                            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-form-tab" data-bs-toggle="pill" data-bs-target="#pills-form"
+                                        type="button" role="tab" aria-controls="pills-form" aria-selected="true">Form Tab 1</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-text-tab" data-bs-toggle="pill" data-bs-target="#pills-text"
+                                        type="button" role="tab" aria-controls="pills-text" aria-selected="false">Text Tab 2</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-image-tab" data-bs-toggle="pill" data-bs-target="#pills-image"
+                                        type="button" role="tab" aria-controls="pills-image" aria-selected="false">Image Tab 3</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-video-tab" data-bs-toggle="pill" data-bs-target="#pills-video"
+                                        type="button" role="tab" aria-controls="pills-video" aria-selected="false">Video Tab 4</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content wizard-form-background" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-form" role="tabpanel" aria-labelledby="pills-form-tab"
+                                    tabindex="0">
+                                    <form role="form" action="index.html" class="login-box">
+                                        <div class="tab-content" id="main_form">
+                                            <div class="tab-pane active" role="tabpanel" id="step1">
+                                                <h4 class="text-center">STEP 1</h4>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>Full Name *</label> 
+                                                            <input class="form-control" type="text" name="name" placeholder="Enter full name" required> 
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>Phone Number *</label> 
+                                                            <input class="form-control" type="number" name="name" placeholder="Enter phone number" required> 
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>Email Address *</label> 
+                                                            <input class="form-control" type="email" name="name" placeholder="Enter email address" required> 
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label>Password *</label> 
+                                                            <input class="form-control" type="password" name="name" placeholder="Enter password"> 
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>                                    
+                                </div>
+                                <div class="tab-pane fade" id="pills-text" role="tabpanel" aria-labelledby="pills-text-tab" tabindex="0">
+                                    <div class="text-tab-2">
+                                        <h4 class="text-center">STEP 2</h4>
+                                        <form>
+                                            <textarea type="text" rows="10" placeholder="Enter your message"></textarea> 
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-image" role="tabpanel" aria-labelledby="pills-image-tab" tabindex="0">
+                                    <div class="image-tab-3">
+                                        <h4 class="text-center">Profile Image</h4>
+                                        <form id="imageForm">
+                                            <input type="file" id="imageInput" accept="image/*">
+                                            <button type="submit">Upload Image</button>
+                                        </form>                                          
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab" tabindex="0">...
+                                    <div class="video-tab-4">
+                                        <h4 class="text-center">Profile Video</h4>
+                                        <form id="videoForm">
+                                            <input type="file" id="videoInput" accept="video/*">
+                                            <button type="submit">Upload Video</button>
+                                        </form>                                          
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-sm-1 col-0">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          effect: "fade",
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          autoplay:true,
+          loop:true,
+        });
+      </script>
+</body>
+
+</html>
