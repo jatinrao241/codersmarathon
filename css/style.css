@@ -42,6 +42,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99999999;
 }
 
 .model-content {
@@ -174,6 +175,11 @@
 .form-wizard-design-section {
   position: relative;
   padding-bottom:20px;
+}
+
+.form-wizard-design-section .wizard-form-column{
+  position: relative;
+  z-index:0;
 }
 
 .wizard-form-tabs .nav-item{
